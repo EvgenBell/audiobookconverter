@@ -1,0 +1,39 @@
+# Python environment and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Local binaries and build output
+bin/
+build/
+dist/
+*.zip
+
+# User projects, media and credentials
+*.abcproj
+*.mp3
+*.m4a
+*.m4b
+*.mp4
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+.env
+.env.*
+*.pem
+*.key
+
+# Local reports and sample artwork; keep public screenshots
+artifacts/*
+!artifacts/interface.png
+!artifacts/interface-dark.png
+!artifacts/about-1.1.0.png
+/Обложка.png
+/audiobook_cover.webp
+/src/resources/qr_code.png
