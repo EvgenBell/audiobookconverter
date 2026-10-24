@@ -1,0 +1,65 @@
+AudioBookConverter 1.1.0 for Windows x64
+=======================================
+
+Application source: https://github.com/EvgenBell/audiobookconverter/tree/v1.1.0
+The application's original source is MIT licensed; see LICENSE.
+Bundled third-party components retain their own copyrights and licenses.
+The licenses/ directory in the Windows ZIP contains their license texts.
+No third-party binaries or library sources have been modified.
+
+Python 3.11.9 - Python Software Foundation License and included notices
+https://www.python.org/downloads/release/python-3119/
+Source: https://www.python.org/ftp/python/3.11.9/Python-3.11.9.tar.xz
+License: licenses/Python.txt (also includes Python's third-party notices).
+
+PySide6, Shiboken6 and Qt 6.10.2 - LGPLv3 / GPL, with third-party licenses
+Copyright (C) The Qt Company Ltd. and other contributors.
+https://doc.qt.io/qtforpython-6/licenses.html
+https://doc.qt.io/qt-6/licenses-used-in-qt.html
+Python binding source: https://code.qt.io/cgit/pyside/pyside-setup.git/tree/?h=v6.10.2
+Qt source archives: https://download.qt.io/archive/qt/6.10/6.10.2/submodules/
+Qt source tree: https://code.qt.io/cgit/qt/qt5.git/tree/?h=v6.10.2
+Licenses: licenses/Qt/ and licenses/Qt-for-Python/.
+The DLLs and Python extension modules are included separately in _internal.
+You may replace these libraries with compatible modified versions and rebuild
+the application from its published source. No additional restriction on
+modification or reverse engineering for debugging such modifications is imposed.
+
+FFmpeg and FFprobe 8.0.1 - GPLv3
+Copyright (C) the FFmpeg developers and contributing library authors.
+Windows builds by Gyan Doshi, used as separate command-line processes:
+ffmpeg: 8.0.1-essentials_build-www.gyan.dev
+ffprobe: 8.0.1-full_build-www.gyan.dev
+Original builds: https://github.com/GyanD/codexffmpeg/releases/tag/8.0.1
+Build information and libraries: https://www.gyan.dev/ffmpeg/builds/
+Exact FFmpeg source identified by the build publisher:
+https://github.com/FFmpeg/FFmpeg/tree/894da5ca7d
+Source archive: https://github.com/FFmpeg/FFmpeg/archive/894da5ca7d.tar.gz
+Licensing: https://ffmpeg.org/legal.html
+License: licenses/GPL-3.0.txt.
+The full build configurations are recorded in licenses/FFmpeg-build.txt and
+licenses/FFprobe-build.txt, and are available by running the tools with -version.
+
+Mutagen 1.47.0 - GPLv2 or later
+Copyright (C) the Mutagen authors.
+Source: https://github.com/quodlibet/mutagen/tree/release-1.47.0
+Source archive: https://github.com/quodlibet/mutagen/archive/refs/tags/release-1.47.0.tar.gz
+License: licenses/Mutagen.txt.
+
+Pillow 12.1.1 - MIT-CMU, with third-party licenses
+Copyright (C) Jeffrey A. Clark and contributors; Fredrik Lundh and contributors;
+Secret Labs AB. See the full license for individual notices.
+Source: https://github.com/python-pillow/Pillow/tree/12.1.1
+Source archive: https://github.com/python-pillow/Pillow/archive/refs/tags/12.1.1.tar.gz
+License: licenses/Pillow.txt.
+
+PyInstaller 6.20.0 bootloader - GPLv2 or later with Bootloader Exception
+Copyright (C) the PyInstaller Development Team and other contributors.
+Source: https://github.com/pyinstaller/pyinstaller/tree/v6.20.0
+License and exception: licenses/PyInstaller.txt.
+
+Microsoft Visual C++ and Universal C runtime redistributable components
+Copyright (C) Microsoft Corporation. All rights reserved.
+Supplied with the Python and Qt runtime distributions.
+See licenses/Python.txt and the Microsoft runtime license information:
+https://visualstudio.microsoft.com/license-terms/

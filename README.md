@@ -32,6 +32,17 @@ Built with Python, PySide6 and FFmpeg. Russian and English interface, light and 
 
 </details>
 
+## Скачать для Windows
+
+[**Скачать AudioBookConverter 1.1.0 — Windows x64 (ZIP)**](https://github.com/EvgenBell/audiobookconverter/releases/download/v1.1.0/AudioBookConverter-1.1.0-windows-x64.zip)
+
+1. Распакуйте **весь архив** в отдельную папку.
+2. Запустите `AudioBookConverter.exe` из папки `AudioBookConverter`.
+
+Python и FFmpeg уже включены; устанавливать их отдельно не нужно.
+Не переносите EXE отдельно от папки `_internal`. Требуется Windows 10/11 x64.
+Описание версии и контрольная сумма — на [странице релиза 1.1.0](https://github.com/EvgenBell/audiobookconverter/releases/tag/v1.1.0).
+
 ## Запуск из исходников
 
 Нужны Windows 10/11, Python 3.11+ и FFmpeg вместе с FFprobe.
@@ -103,5 +114,7 @@ py -3.11 -m venv venv
 Сторонние компоненты распространяются по собственным лицензиям:
 [FFmpeg](https://ffmpeg.org/legal.html), [PySide6 / Qt](https://doc.qt.io/qtforpython-6/licenses.html),
 [Mutagen](https://mutagen.readthedocs.io/), [Pillow](https://python-pillow.org/).
+Состав готовой Windows-сборки, лицензии и ссылки на исходники компонентов:
+[THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt).
 
 Разработчик: Евгений Белявский · [Telegram](https://t.me/evgen_rus).

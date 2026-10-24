@@ -10,7 +10,7 @@ a = Analysis(
     ['src\\app.py'],
     pathex=['src'],
     binaries=[('bin\\ffmpeg.exe', 'bin'), ('bin\\ffprobe.exe', 'bin')],
-    datas=[('src\\i18n', 'i18n'), ('src\\resources', 'resources'), ('icon.ico', '.')],
+    datas=[('src\\i18n', 'i18n'), ('src\\resources\\*.svg', 'resources'), ('icon.ico', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
